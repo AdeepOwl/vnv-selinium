@@ -16,6 +16,7 @@ public class Test_steps {
 	   System.out.println("home page adeep"); //hi pravin thx for helping
 	   System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
 		 driver=new ChromeDriver();
+		//hi it's ashish here
 		
 	}
 
