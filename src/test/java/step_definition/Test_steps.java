@@ -12,6 +12,7 @@ public class Test_steps {
 	public static WebDriver driver;
 	@Given("User is on Home Page")
 	public void user_is_on_Home_Page() {
+		// hi adeep thanks for sending invitation 
 	   System.out.println("user_is_on_Home_Page()");
 	   System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
 		 driver=new ChromeDriver();
@@ -20,7 +21,7 @@ public class Test_steps {
 
 	@When("User Navigate to LogIn Page")
 	public void user_Navigate_to_LogIn_Page() {
-		  System.out.println("user_Navigate_to_LogIn_Page()");
+		  System.out.println("user navigate to hotel booking page )");
 		  driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 	}
 
